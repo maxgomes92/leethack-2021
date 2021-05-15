@@ -1,0 +1,116 @@
+[
+  {
+    "label": "lobby",
+    "isCurrent": true,
+    "room": { "id": "lobby", "exits": ["corridor"], "isStartingRoom": true }
+  },
+  {
+    "label": "corridor",
+    "isCurrent": false,
+    "room": {
+      "id": "corridor",
+      "exits": ["laboratory"],
+      "isStartingRoom": false
+    }
+  },
+  {
+    "label": "laboratory",
+    "isCurrent": false,
+    "room": {
+      "id": "laboratory",
+      "exits": ["abattoir"],
+      "isStartingRoom": false
+    }
+  },
+  {
+    "label": "abattoir",
+    "isCurrent": false,
+    "room": { "id": "abattoir", "exits": ["laundry", "brig"] }
+  },
+  {
+    "label": "laundry",
+    "isCurrent": false,
+    "room": { "id": "laundry", "exits": ["kiosk"] }
+  },
+  {
+    "label": "brig",
+    "isCurrent": false,
+    "room": { "id": "brig", "exits": ["storage"] }
+  },
+  {
+    "label": "storage",
+    "isCurrent": false,
+    "room": { "id": "storage", "exits": ["study"] }
+  },
+  {
+    "label": "kiosk",
+    "isCurrent": false,
+    "room": { "id": "kiosk", "exits": ["hallway"] }
+  },
+  {
+    "label": "hallway",
+    "isCurrent": false,
+    "room": { "id": "hallway", "exits": ["mortuary", "gym"] }
+  },
+  {
+    "label": "mortuary",
+    "isCurrent": false,
+    "room": { "id": "mortuary", "exits": ["barracks"] }
+  },
+  {
+    "label": "gym",
+    "isCurrent": false,
+    "room": { "id": "gym", "exits": ["switchboard"] }
+  },
+  {
+    "label": "switchboard",
+    "isCurrent": false,
+    "room": { "id": "switchboard", "exits": ["radio"] }
+  },
+  {
+    "label": "radio",
+    "isCurrent": false,
+    "room": { "id": "radio", "exits": ["lavatory"] }
+  },
+  {
+    "label": "lavatory",
+    "isCurrent": false,
+    "room": { "id": "lavatory", "exits": [] }
+  },
+  {
+    "label": "barracks",
+    "isCurrent": false,
+    "room": { "id": "barracks", "exits": ["den"] }
+  },
+  {
+    "label": "den",
+    "isCurrent": false,
+    "room": { "id": "den", "exits": ["library"] }
+  },
+  {
+    "label": "library",
+    "isCurrent": false,
+    "room": { "id": "library", "exits": ["cunundroom"] }
+  },
+  {
+    "label": "cunundroom",
+    "isCurrent": false,
+    "room": { "id": "cunundroom", "exits": ["cupboard"] }
+  },
+  {
+    "label": "cupboard",
+    "isCurrent": false,
+    "room": { "id": "cupboard", "exits": [] }
+  },
+  {
+    "label": "study",
+    "isCurrent": false,
+    "room": { "id": "study", "exits": ["skywalk"] }
+  },
+  {
+    "label": "skywalk",
+    "isCurrent": false,
+    "room": { "id": "skywalk", "exits": [] }
+  },
+  { "label": "aFunFact", "isCurrent": false }
+]
